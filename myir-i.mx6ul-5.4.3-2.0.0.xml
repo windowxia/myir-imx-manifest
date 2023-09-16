@@ -3,14 +3,14 @@
 
   <default sync-j="8"/>
 
-  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
-  <remote fetch="git://github.com/Freescale" name="community"/>
-  <remote fetch="git://github.com/openembedded" name="oe"/>
-  <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
-  <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
-  <remote fetch="git://github.com/TimesysGit"  name="Timesys"/>
-  <remote fetch="git://github.com/meta-rust"  name="rust"/>
-  <remote fetch="git://github.com/MYiR-Dev" name="MYiR-DEV"/>
+  <remote fetch="https://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="https://github.com/Freescale" name="community"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
+  <remote fetch="https://github.com/meta-qt5"  name="QT5"/>
+  <remote fetch="https://github.com/TimesysGit"  name="Timesys"/>
+  <remote fetch="https://github.com/meta-rust"  name="rust"/>
+  <remote fetch="https://github.com/MYiR-Dev" name="MYiR-DEV"/>
 
   <project remote="yocto" revision="a8f6e31bebc5a551fab1fec8d67489af80878f71" name="poky" path="sources/poky"/>
   <project remote="community" revision="94f4f086c6014cbcfd10bda3540d19558c8bf0b0" name="meta-freescale" path="sources/meta-freescale"/>
